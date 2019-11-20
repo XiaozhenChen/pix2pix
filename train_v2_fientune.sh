@@ -1,0 +1,1 @@
+python train.py --name face-link-neck-v2_finetun_cxz --label_nc 0  --dataroot /sdf_data/liyao/Database/YZMHeadMattingselectImg/trainSet/ --no_instance --loadSize 512 --gpu_ids 1,2 --tf_log --resize_or_crop none --batchSize 2 --load_pretrain /sdf_data/liyao/face-link-neck/pix2pixHD-master/checkpoints/face-link-neck-v2 --which_epoch 70
